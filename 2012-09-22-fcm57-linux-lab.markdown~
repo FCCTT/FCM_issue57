@@ -11,7 +11,7 @@ categories: issue57 LINUX-LAB
 
 作者: Charles McColm
 翻译：VinoCos
-校对：Kitty 顾履冰
+校对：Kitty
 
 
 Traditionally our family has two periods of the year that we do a big cleanup - spring cleaning and at the start of a new year. This year, instead of tossing out our old Athlon64, I decided to reuse it as a development server for our existing MMORPG server. I first became aware of The Mana World (TMW) in late 2007 when the client software, tmw, appeared in the universe repositories of Ubuntu 7.10, Gutsy Gibbon. At the time, the TMW client was primitive but quite functional. Over the past several years, the game has advanced both on the client and server side.
@@ -144,7 +144,7 @@ GM的权限包括创建物品、孵化怪兽、转换玩家以及将玩家转移
 
 In order to make your server available to everyone on the Internet, you’ll need to punch some holes in the firewall of your router. In particular, TCP and UDP for ports 5122, 6122, and 6901. You’ll also need to modify the configuration files for the server executables. There are a lot of configuration files, in a few places. The configuration files we want are all suffixed with _local.conf. In particular we want to modify the following files:
 
-为了使你的服务器可以在网络上被其他用户使用，你需要在路由器的防火墙上凿开一些洞：尤其是TCP和UDP的端口5122，6122和6901。你还需要修改服务器执行文件的配置。这里有非常多的配置文件散布在不同的文件夹里，不过我们需要修改的文件都带有_local.conf后缀。下面就是我们需要修改的文件：
+为了使你的服务器可以在网络上被其他用户使用，你需要在路由器的防火墙上凿开一些洞呢：尤其是TCP和UDP的端口5122，6122和6901。你还需要修改服务器执行文件的配置。这里有非常多的配置文件散布在不同的文件夹里，不过我们需要修改的文件都带有_local.conf后缀。下面就是我们需要修改的文件：
 
     ~/tmw-ea/eathena-data/world/conf/char_local.conf
     ~/tmw-ea/eathena-data/world/map/conf/map_local.conf
@@ -152,7 +152,7 @@ In order to make your server available to everyone on the Internet, you’ll nee
 
 There are 3 variables we want to set, the IP addresses for the login server, the character server, and the map server. If you’re using a dynamic DNS service, the dynamic DNS name can be used in the place of the character and map server, but you should use your local address for the login server (on our test server we used 127.0.0.1 and it worked fine for the login server). Note that if your DNS changes while the server is online the server may be unavailable. Our ISP offers a very inexpensive static IP address, which is what we use in place of the character and map server variables. Our char_local.conf looks something like this:
 
-在这儿我们需要设置3个变量：登陆服务器、角色服务器和地图服务器的IP地址。如果你采用动态获取DNS，也可以在角色和地图服务器里使用这个动态DNS，但你必须要用你的本地IP地址来设置登陆服务器（测试中，我们使用的是127.0.0.1本地回环地址，在登录服务器上它运行良好）。需要注意的是，当你的服务器在线时，如果改变DNS会让服务器挂掉的。我们的互联网提供商（ISP）提供了一个非常便宜的静态IP地址，所以我们可以把它用做角色和地图服务器的IP变量。我们的char_local.conf文件应该是这样的：
+在这儿我们需要设置3个变量：登陆服务器、角色服务器和地图服务器的IP地址。如果你采用动态获取DNS，也可以在角色和地图服务器里使用这个动态DNS，但你必须要用你的本地IP地址来设置登陆服务器（测试中，我们使用的是127.0.0.1本地回环地址，在登录服务器上它运行良好）。需要注意的是，当你服务器在线时，如果改变DNS会让服务器挂掉的。我们的互联网提供商（ISP）提供了一个非常便宜的静态IP地址，所以我们可以把它用做角色和地图服务器的IP变量。我们的char_local.conf文件应该是这样的：
 
     // Comment : Login server IP
     login_ip: 127.0.0.1
