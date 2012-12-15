@@ -1,67 +1,131 @@
 ---
 layout: post
-title: "53期 - Ubuntu 女士"
+title: "53期 - Q&A"
 date: 2012-09-22 13:33
 comments: true
 categories: issue57 ubuntu-women
 ---
 
-Written by Elizabeth Krumbach
+######Compiled by Gord Campbell
 
-Gema Gomez-Solano
+If you have Ubuntu-related questions, email them to: questions@fullcirclemagazine.org, and Gord will answer them in a future issue. Please include as much information as you can about your problem.
 
-Elizabeth Krumbach: Can you tell us a little about yourself?
+如果你有Ubuntu相关问题，可以发邮件至questions@fullcirclemagazine.org，Gord会在后面发布的杂志中回答你的问题。请在问题中包含尽可能多的问题描述。
 
-Elizabeth Krumbach: 可以先介绍一下自己吗？
+#####Q How can I uninstall a program?
 
-Gema Gomez-Solano (above): I love good software and computers. When I was at high school, and I watched the film Sneakers, I decided to become a Computer Engineer. I admired those computer wizards who could do almost anything with a keyboard. I really wanted to be part of a group that could do cool things with technology, no matter how complicated.
+A Go to the software centre, search for the name of the application, select it, and click the "uninstall" button.
 
 
-Gema Gomez-Solano (above)：我喜欢优秀的软件和电脑。中学的时候，我看了《通天神偷》之后，我就决定，长大了要当一个电脑工程师。当时我非常佩服那些计算机高手，他们可以用键盘做各种事情。我当时非常希望能成为他们中的一员，用技术实现一些很酷的东西，不管这个东西有多复杂。
+#####Q How can I install iplist (aka IpBlock) in 11.10.
 
-I studied Computer Engineering in Barcelona, Spain; a Master equivalent degree at the Catalonia Polytechnic University. After finishing university, I was hired by a security company in Barcelona to do security audits and assessments.
+A Use pgl instead, the successor of moblock/blockcontrol/mobloquer. http://sourceforge.net/projects/peerguardian/
 
-我在西班牙巴塞罗那的加泰罗尼亚理工大学读计算机工程专业，活动基本上等同于硕士的学位。毕业后，我受聘于巴塞罗那一家安全公司，工作主要是安全审计和评估。
 
-In 2004, given my security background, I was offered a role in London as a Test Engineer at Symbian within the security team. This was my first time working at an English company, and in an international environment. We had teams in the UK and India, and later in China. Testing an operating system was one of the most complex and enlightening experiences of my career. I grew as a tester and as a QA engineer during the first years there. The security team moved to Cambridge and I decided to stay in London doing integration testing within the kernel team.
+#####Q I have lost my password. How can I log on?
 
-2004年，因为有计算机安全领域的工作经验，我在塞班公司的安全小组找到一份测试工程师的工作，地点是在伦敦。
+A (Thanks to bcbc in the Ubuntu Forums.) Boot in recovery mode. You might need to select the third option, "Remount read/write". Then select "root shell prompt." It will put you at a command prompt, type:
 
-Then, in 2007, Symbian decided they wanted to build a strong System Test team, and offered me the Technology Architect position for that team. We built a technically strong test team who changed the quality of the OS visibly and for good. It felt great to see that project develop after all the battles that we had to fight to make it happen.
+passwd [userid]
 
-Then Nokia took over Symbian, and announced it was going to become open-source. After spending 9 months helping the team to integrate in the new organisation, I decided to take some time off to rethink my career to find the next challenge. I had seen the team grow and establish itself as a smoothly running testing team, so my job there felt done and I was eager to find a new project that I could help develop and build.
+where [userid] is your userid. In my case, it's gord. Enter your new password twice, then it should say your password was updated. Enter the command:
 
-As my next challenge I took up an opportunity to join VMware in London. I did API testing for almost a year with them but it didn't really feel like the challenge I had been seeking. So I kept trying to find what I was looking for, and that's how I came across Canonical and the Ubuntu project. It was an operating system; it was in need of testing if it was to become the predominant OS. And, most importantly, it was a chance to collaborate with a great community from around the globe. This opportunity got my attention instantly, and, when I was offered the QA Engineer position, I didn't hesitate.
+exit
 
-Five months and one UDS down the line, it still feels good and lots of things are starting to happen within the Canonical Platform QA team and within the community in terms of QA. I enjoy seeing how my work has a direct impact on a system used by millions worldwide. I would like to see Ubuntu become the operating system everyone uses and that comes with every computer that is sold. Most importantly, I personally would like to see the QA work that we are doing for Ubuntu become a de facto standard in terms of quality assurance and good testing practices.
-	
-EK: How and when did you first get involved with open-source?
+Select "Resume normal boot," and you should be able to use the password you just created.
 
-GG: The first time I thought about open-source as a way of making software was when I was told Symbian was becoming open-source. We had to think about how to make our code available to everyone, as well as keeping the continuous integration and testing of the code going. That was the first time I really thought about the concept of open-source, and realised how powerful the idea is.
+Those of you concerned about security should note that this method provides anyone (who has physical access to your computer) complete access to all the programs and unencrypted data.
 
-My partner has been a developer of an open-source project, Dragonfly BSD, for some time now. I have seen him work on that project, and interact with its community, for years. He tried to convince me to do testing for them - but I was so busy with my day-to-day work that I never had enough quality time to dedicate to that.
 
-So my first real taste of open-source, and being part of a community, has been with Canonical and the Ubuntu Project. I am learning to work with the community and to bounce ideas back and forth until they become work items and get implemented. Initially, the QA list felt somewhat lifeless, and the community was a bit stuck on what it was doing. Not much collaboration was going on so we split some of the tasks our team was doing this cycle, and made them available to the community. We've raised the awareness of testing, and plenty of community members have started to collaborate with us, and a lot of discussions are going on at the moment regarding the future of QA in Ubuntu. All geared towards taking the quality of Ubuntu to the next level.
+#####Q Will Microsoft Office Professional 2010 work under Wine?
 
-I have also started talking to the Mozilla QA team regarding a test case management tool (Case Conductor) they are creating that we would like to use for Ubuntu as well. They are keen on collaborating, and would like to gather requirements from us so that the tool is fit for purpose for Ubuntu, too. We will soon be involved in beta-testing and other collaboration with the Mozilla team on this tool. So inter-community collaboration is something I am exploring at the moment.
+A Yes, with Wine version 1.32. See this for full instructions: http://ubuntuforums.org/showthread.php?t=1885051
 
-EK: What is your role within the Ubuntu Project?
 
-GG: I started working for the Platform QA team at Canonical back in August, and I have been watching the project during the final stages of Oneiric Ocelot as well as learning more about Linux and the community.
+#####Q Running DVDstyler fails with a segmentation fault in Ubuntu 11.10.
 
-I wrote a high level strategy of what I think needs to happen in the coming 2 years for our quality levels to rise significantly. The plan was well received at the management team, and we got a green light to start implementing it. I have since moved to be the technical lead of the Platform QA team. We are currently working on putting the right tools in place so that developers can act on the important defects as soon as they are found. The Daily ISO testing is already following this principle, and its quality is improving noticeably as we speak. We are keeping track of the defects we find as part of our testing efforts, and of the defects we didn't find but are found later in the development cycle, so that we can improve the testing of future releases. Our overall aim is to build a solid automated testing suite as soon as we have the basics in place.
+A (Thanks to Rattus Norvegicus in the Ubuntu Forums) It works fine under Gnome Classic.
 
-We changed the format of the meeting to make it more QA focussed, splitting it from the Bug Control meeting. Now both groups have different times to meet and discuss their issues and progress, and we have a set of tasks that community members are contributing to, with the aim of improving the quality of Ubuntu. I am driving and coordinating this effort at the moment, but this is not going to be my focus going forward since there will be a QA Community Coordinator with whom my team will collaborate closely and I will be just one more community contributor. The QA Platform team will be helping shape the testing effort and trying to make every little effort a worthwhile contribution to the whole. Historically, there has been little leadership in the QA front, and we are trying to bring good practices from the industry to the open-source community to improve the situation.
 
-EK: Do you have any suggestions for others who are looking to get involved with Ubuntu and open-source in general?
+#####Q Using Ubuntu 11.10, how can I get my Firefox bookmarks over to a new machine? They've taken out the Backup/Restore using a .json file.
 
-GG: I think open-source is an unstoppable force that is driven by a huge worldwide community. I'd say the first step is to figure out what you want to do with your free time, then choose a project that you'd like to contribute to and see if they are in need of any of your skills; odds are they are. If you are a developer but do not want to write code in your free time, you might enjoy reviewing code or beta-testing a product to find problems, or triaging some bugs. Maybe you are good at languages and want to contribute by translating the software.
+A Open "Show All Bookmarks." Now, move your mouse up to the left half of the top panel, and "import and backup" will appear.
 
-Or if you enjoy breaking software, and would like to do quality assurance and testing of a particular product, and you are prepared to join a very dynamic and challenging environment, I'd like to see an email from you on our ubuntu-qa@lists.ubuntu.com list (it's open to anyone: https://lists.ubuntu.com/mailman/listinfo/ubuntu-qa ).
 
-We are in the process of gathering as much help as we can get. The tasks that are being worked on at the moment at the community level for Precise are available on the wiki:
-https://wiki.ubuntu.com/QATeam/TasksPrecise
+#####Q I installed Xubuntu 11.10 on my desktop. In live mode, it showed my hard drive partitions on the desktop as icons, but, once installed, the mounted partitions are not shown on the desktop. Why?
 
-The QA Team for Ubuntu has a weekly gathering. Feel free to attend our weekly meeting and ask questions so that you get to know the team and what each one of us is doing. It takes place every Wednesday at 17:00 UTC in #ubuntu-meeting on freenode. We are thrilled to see new people show up and contribute. The agenda for the meetings, and details and logs of past meetings, are available here: https://wiki.ubuntu.com/QATeam/Meetings
+A The LiveCD is run from CD or USB, so hard disk partitions are viewed as external. For a hard disk-based OS, partitions are internal. Only external media appear on the desktop.
 
-test
+
+#####Q As far as I can make out, Oneiric does not work with Intel GMA500 video?
+
+A Have a look at http://ubuntuforums.org/showpost.php?p=11356431&postcount=4605
+
+
+#####Q Is Avidemux available in the Ubuntu 11.10 repositories yet? It wasn't when 11.10 was first released.
+
+A (Thanks to linuxman94 in the Ubuntu Forums) Yes, it is. For future reference, you can check what repos packages are in by searching in http://packages.ubuntu.com. Note that you might need to search through all three of oneiric, oneiric-updates, and oneiric-backports.
+
+
+#####Q I am trying to install Drupal. "sudo apt-get install drupal7" said the package is not found.
+
+A Even the latest version of Ubuntu still has Drupal6 in its repositories, while 7.10 is available at drupal.org.
+
+
+#####Q I have a hot new system with an MSI Z68A-G45 (UEFI) motherboard and i7-2600k CPU. Several versions of Ubuntu all hang at the same place early on in the boot, just after detecting USB pen drive or USB hid, when booting from CD.
+
+A (Thanks to Trevelyon in the Ubuntu Forums) I used the nomodeset noacpi options and the installation CD comes up. Also had to add them (after installation) to boot from the SSD.
+
+
+#####Q I downloaded the Ubuntu 10.04.3 32-bit desktop ISO, then used Startup Disk Creator to make a bootable USB stick to install Ubuntu on several other computers. When I boot from it, I get "Boot Error" on a blank black screen.
+
+A Try using Unetbootin to create your USB stick, and if that fails, burn a CD.
+
+
+#####Q I'm using Ubuntu 11.10. I recently installed gtkpod to upload songs to my classic iPod. When I open gtkpod, it just has a blank screen - the iPod is nowhere to be found. It shows up in the places list and the audacious music player.
+
+A (Thanks to sasasas in the Ubuntu Forums) I installed Amarok. GTKpod would have been nice as it has the ability to remove duplicates.
+
+
+Tips and Techniques
+New Technology, 2012 Edition
+
+New technology always causes disruptions, and UEFI (Unified Extensible Firmware Interface) is no exception. For now, UEFI appears to be replacing or supplementing the BIOS on high-end desktop systems, but you can expect it to spread throughout the industry over the next couple of years. If you're thinking of buying a new computer, you should check on the current state of support for its various features before you buy.
+
+UEFI supports hard drives larger than 2 TB, and brings graphics and the mouse to the power-on interface. It also opens up a lot of potential for the future, which was not possible with the 16-bit, 1 MB limits of the BIOS. The large hard drives use another new technology, GUID (Globally Unique Identifier) Partition Table, or GPT, instead of the old MBR partition table.
+
+The other hot new technology is Solid State "Disks" (SSD), which cause their own disruptions.
+
+The combination led Antti Kirjavainen, who logs on as Ubutuxer, to ask this question in the Ubuntu Forums: "is it possible to get Ubuntu 11.10 or 12.04 to boot from an SSD connected to an Asus P8H61-I motherboard?" Three days later, he posted the solution!
+
+In his first post, Kirjavainen explained that he could boot from a USB stick, and install Ubuntu onto the SSD, but when he booted the installed system it yielded a black screen with a blinking cursor.
+
+Oldfred, Zensov and Robgill commented on the question, then Kirjavainen gave the solution. In his (slightly edited) words:
+
+1) GPT partitioning seemed to be a problem for the Ubuntu installer. I took the SSD out of the PC, plugged it into another PC with a SATA-to-USB adapter, and created a normal partition table on it without any of the non-working GPT crap. I created the partitions as follows (with cfdisk, gparted also works):
+
+1: FAT 32 partition for the EFI bootloader. I set this to 500 MB size and formatted it with mkfs.vfat.
+2: / (root) partition (ext4).
+3: /home partition (ext4).
+
+I use no swap on computers like this, that have 16 to 32 GB of RAM.
+
+2) I kept the SSD plugged to the other PC with the SATA-to-USB adapter and mounted the boot partition. I created a folder efi/grub under it with the command "mkdir -p efi/grub".
+
+3) Now the disk was ready for installation. I put the SSD back in the new PC, booted up Ubuntu installation from the USB stick and installed it as usual, formatting / and /home as ext4 in the process.
+
+SUCCESS!!!
+
+The PC boots in about 10-15 seconds, as you'd expect from an SSD. The network card on this motherboard works on Ubuntu 11.10 out-of-the-box as well. 10.04 doesn't seem to recognise it, 11.04 I'm not sure.
+
+My advice to others reading Ubuntu's EFI/UEFI instructions:
+
+Do NOT start recompiling Grub or other more complicated stuff. It is completely unnecessary.
+
+The instructions are outdated for 11.10 and just creating the FAT partition with a folder efi/grub is enough for Ubuntu to automatically recognise and install the bootloader there. Ubuntu 11.10 already has a working GRUB for EFI systems, you do NOT need to compile one yourself, at least not for the Asus EZ.
+
+So, in short: create the partitions on a non-EFI system, mkdir 2 folders and install. If I only knew from the start that it was this simple....
+
+
+After a long career in the computer industry, including a stint as editor of Computing Canada and Computer Dealer News, Gord is now more-or-less retired.
+
