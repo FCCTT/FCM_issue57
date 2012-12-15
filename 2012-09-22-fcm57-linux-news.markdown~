@@ -6,7 +6,7 @@ comments: true
 categories: issue57 linux-news
 ---
 
-`翻译：VinoCos 校对：Kitty  顾履冰`
+`翻译：VinoCos 校对：Kitty `
 
 ## Ubuntu TV
 
@@ -27,7 +27,7 @@ Despite Google's renewed push on Google TV, it could be seen as a direct respons
 
 Although movie streaming services will be supported as well as live television broadcasts a major issue is going to be deals for content. In the meanwhile, you can glory in the Ubuntu TV interface, which, as we discussed on the podcast, could well be the killer application for which Unity was destined.
 
-虽然对电影的流式服务和电视实况转播的支持将会带来内容处理上的问题。不过，就跟我们在播客中讨论过的一样，你会惊喜地发现Ubuntu TV界面将注定是Unity里的杀手级应用。
+虽然对电影的流式服务和电视时况转播的支持将会带来内容处理上的问题。不过，就跟我们在播客中讨论过的一样，你会惊喜地发现Ubuntu TV界面将注定是Unity里的杀手级应用。
 
 ## Air Force Drone Controllers Embrace Linux
 
@@ -35,11 +35,11 @@ Although movie streaming services will be supported as well as live television b
 
 "Last year, U.S. military drone control systems were infected with Windows USB worms. They seem to be moving the control systems to Linux now," said Mikko Hypponen, chief research officer at F-Secure, via Twitter.
 
-F-Secure公司的首席研究员Mikko Hypponen在Twitter上透露：“去年，美国军方无人机操作系统遭到了Windows USB蠕虫病毒的感染。他们现在似乎正打算将操作系统转移到Linux上。”
+F-Secure公司的首席研究员Mikko Hypponen在Twitter上透露：“去年，美国军方无人机操控系统遭到了Windows USB蠕虫病毒的感染。他们现在似乎正打算将操纵系统转移到Linux上。”
 
 As evidence of the apparent shift, he posted pictures of a drone control system from 2009 (the image was originally published by the Air Force), which appears to sport a Windows graphical user interface. For comparison, Hypponen then posted an unclassified slide (above) from a 2010 briefing that details Linux as being part of a 2011 upgrade.
 
-他上传了空军官方2009年发布的一些有关无人机操作系统的图片来支持他的观点：这些图片中出现的控制器使用的是Windows图形用户界面。作为比较，Hypponen接着上传了一个2010年简报里的非机密幻灯片，上面将Linux列为了2011年系统升级计划的一部分。
+他上传了空军官方2009年发布的一些有关无人机操控系统的图片来支持他的观点：这些图片中出现的控制器使用的是Windows图形用户界面。作为比较，Hypponen接着上传了一个2010年简报里的非机密幻灯片，上面将Linux列为了2011年系统升级计划的一部分。
 
 Source: [informationweek.com](http://informationweek.com)
 
@@ -49,7 +49,7 @@ Source: [informationweek.com](http://informationweek.com)
 
 Finally we have both epub and mobi formatted Full Circle on the downloads page. At the moment it's only FCM#56 that's online, but we're hoping to have back issues online shortly. If you've any problems with the epub/mobi files/formatting you can drop an email to Jens at: mobile@fullcirclemagazine.org
 
-现在我们提供epub和mobi格式的Full Circle杂志下载了。虽然暂时只提供56期的杂志下载，不过我们会尽快将往期杂志的epub和mobi文件也发布出来。任何有关epub/mobi文件的问题，请发邮件给Jens：mobile@fullcirclemagazine.org
+现在我们提供epub和mobi格式的Full Circle杂志下载了。虽然暂时只提供56期的杂志下载，不过我们会尽快将往期杂志的epub和mobi文件也放发布出来。任何有关epub/mobi文件的问题，请发邮件给Jens：mobile@fullcirclemagazine.org
 
 
 Big thanks to Jens, Oppih and the beta testers for making them a reality.
