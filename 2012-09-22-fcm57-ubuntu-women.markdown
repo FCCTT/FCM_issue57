@@ -96,10 +96,8 @@ https://wiki.ubuntu.com/QATeam/TasksPrecise
 
 给我们的帮助越多越好。现在整个社区都在为“准确”这个目标努力，你可以在wiki上找到相关信息：https://wiki.ubuntu.com/QATeam/TasksPrecise
 
-<<<<<<< HEAD
-test
-=======
+
 The QA Team for Ubuntu has a weekly gathering. Feel free to attend our weekly meeting and ask questions so that you get to know the team and what each one of us is doing. It takes place every Wednesday at 17:00 UTC in #ubuntu-meeting on freenode. We are thrilled to see new people show up and contribute. The agenda for the meetings, and details and logs of past meetings, are available here: https://wiki.ubuntu.com/QATeam/Meetings
 
 Ubuntu QA小组每周都有聚会。你可以参加我们的会议，询问你想了解关于小组的东西和我们都在做什么。会议时间是每周三17:00 UTC在freenode的#ubuntu-meeting频道。会议日程和之前的会议纪要可以在这个地址找到：https://wiki.ubuntu.com/QATeam/Meetings
->>>>>>> yangjia_translation
+
