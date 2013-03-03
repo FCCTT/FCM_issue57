@@ -8,16 +8,31 @@ categories: issue57 HOW-TO Libre-Office
 
 Written by Elmer Perry
 
+作者 埃尔默 佩里
+
 In the last part of this series, we added the data and formulas for our budget worksheet. The end result, while functional, is not very pretty or easy to read. Now, we will add some styles to our spreadsheet to help make the worksheet not only more pleasant to look at, but easier to read and find specific data. We will accomplish this using cell styles.
+ 
+在本系列的最后一部分，我们增加了用于做预算工作表的数据和公式。但最终的效果，却不是很好，也不易阅读。现在，我们将添加一些样式到我们的电子表格中，使工作表不仅看起来更漂亮，而且更易阅读和方面数据查找。我们将使用单元格样式来做到这一点。
  
 Back in part 3 of this series, we used paragraph styles to format the paragraphs in our documents. Cell styles are Calc's equivalent to paragraph styles. Cell styles allow us to specify the border, font, background color, font effects, number format, alignment and cell protection. Styles help to create consistency throughout the spreadsheet. 
 
+早在本系列的第3部分中，我们使用段落样式来设定文档中段落的样子。单元格样式就是电子表格中的段落样式。单元格样式允许我们指定边框，字体，背景颜色，字体效果，数字格式，对齐方式和单元格保护。样式有助于确保整个电子表格的统一性。
+
 ## Section and Column Title Styles
 
+## 组和列标题样式
+
 We'll start by creating styles for our section titles and column titles. Click on the styles icon (above).
+
+首先，我们将创建组标题和列标题的样式。点击样式图标（上图）。
+
 Now, we will create a style for our column titles based on the Section style. Basing one style on another style makes it quick and easy to just add and change the differences between the styles. In the Styles and Formatting windows, right-click on the Section style and select New. Give the style the name “Column Title.” You will notice that the style is linked to the Section style. If you browse through the tabs, you will see all the settings we made for the Section style are already set. To distinguish column titles from sections, we will give them a different background color. On the Background tab, select a suitable light color for the background, such as Blue 8. 
 
+现在，我们将基于组标题的样式创建列标题的样式。在一种样式的基础上创建另一种样式，能够使添加和更改样式之间的差异更加快速、容易。在“样式和格式”窗口中，用鼠标右键单击该组风格，然后选择“新建”，并把其命名为“列标题”。你会注意到列标题的样式都链接到了Section style。如果你浏览所有的标签，你会看到我们已经把所有的section style设置好了。为了区分列组标题和列标题，，我们会赋予了他们不同的背景颜色。在“背景”选项卡上，选择一个合适的浅色作背景色，如蓝8。
+
 ## Applying the Section and Column Title Styles
+
+## 应用组和列标题样式
 
 Now, we can apply our two new styles to cells in our spreadsheet. The sections are “Income This Period”, “Assets”, and “Expenses”. Select the cells for these items and double-click on the Section style in the Styles and Formatting window. You can select more than one cell and apply the style all at once. For example, highlight all the column titles under Income (Source and Amount) and double-click on the Column Title style. Do the same for the column titles under the other two sections. 
 
