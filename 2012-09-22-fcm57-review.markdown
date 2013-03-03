@@ -6,14 +6,6 @@ comments: true
 categories: issue57 review
 ---
 
-<<<<<<< HEAD
-Written by Art Schreckengost
-`Art Schreckengost 著 翻译：vinocos`
-
-In the past, I've reviewed some unknown Ubuntu derivatives, but recently I came across one so obscure I'm not quite sure how I found it.
-
-以前我曾经为一些不知名的Ubuntu衍生产品写过测评，不过最近我偶然发现了一个晦涩到以至于我没法确定我到底找到了什么的产品。
-=======
 `翻译：Xiaobb 校对:`
 
 `Written by Art Schreckengost`
@@ -22,7 +14,6 @@ In the past, I've reviewed some unknown Ubuntu derivatives, but recently I came 
 In the past, I've reviewed some unknown Ubuntu derivatives, but recently I came across one so obscure I'm not quite sure how I found it.
 
 在以前，我已经对许多不太出名的ubuntu衍生系统进行过评测，但是最近我发生了一件事，让我很头疼，我甚至不清楚我是怎么发现它的。
->>>>>>> upstream/master
 
 I'm referring to openArtist 5th Incarnation (oA hereafter), an OS that has managed to stay hidden even though it's been out 3 years (DistroWatch and Wikipedia have zip). About the only information I could gather was limited to either the website (www.openartisthq.org) or 2009 developer posts on BlenderNation.com and BlenderArtists.org. 
 
