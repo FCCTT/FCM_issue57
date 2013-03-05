@@ -12,11 +12,11 @@ Written by Elmer Perry
 
 In the last part of this series, we added the data and formulas for our budget worksheet. The end result, while functional, is not very pretty or easy to read. Now, we will add some styles to our spreadsheet to help make the worksheet not only more pleasant to look at, but easier to read and find specific data. We will accomplish this using cell styles.
  
-在本系列的最后一部分，我们增加了用于做预算工作表的数据和公式。但最终的效果，却不是很好，也不易阅读。现在，我们将添加一些样式到我们的电子表格中，使工作表不仅看起来更漂亮，而且更易阅读和方面数据查找。我们将使用单元格样式来做到这一点。
+在本系列的最后一部分，我们曾介绍了做预算工作表的数据和公式。但最终的效果，却不是很好，也不易阅读。现在，我们将添加一些样式到我们的电子表格中，使工作表不仅看起来更漂亮，而且更易阅读和方面数据查找。我们将使用单元格样式来做到这一点。
  
 Back in part 3 of this series, we used paragraph styles to format the paragraphs in our documents. Cell styles are Calc's equivalent to paragraph styles. Cell styles allow us to specify the border, font, background color, font effects, number format, alignment and cell protection. Styles help to create consistency throughout the spreadsheet. 
 
-早在本系列的第3部分中，我们使用段落样式来设定文档段落的格式。单元格样式就是电子表格中的段落样式。单元格样式允许我们指定边框，字体，背景颜色，字体效果，数字格式，对齐方式和单元格保护。样式有助于确保整个电子表格的统一性。
+早在本系列的第3部分中，我们曾使用段落样式来设定文档段落的格式。单元格样式就是电子表格中的段落样式。单元格样式允许我们指定边框，字体，背景颜色，字体效果，数字格式，对齐方式和单元格保护。样式有助于确保整个电子表格的统一性。
 
 ## Section and Column Title Styles
 
@@ -93,3 +93,5 @@ In the next part of this series, we will prepare our spreadsheet for printing by
 在本系列的下一部分，我们将为打印的电子表格添加页眉和页脚，并讲解我们的打印选项。
 
 Elmer Perry's history of working, and programming, computers involves an Apple IIE, adding some Amiga, a generous helping of DOS and Windows, a dash of Unix, and blend well with Linux and Ubuntu.
+
+埃尔默·佩里的工作和编程经历：apple IIE（1983年苹果制造的一种个人电脑），Amiga（阿米加，一种个人电脑），对dos和windows有所帮助，一种unix下的命令行，很好的和linux和ubuntu融合。(抱歉，最后一段真没看懂。。。。。。)
