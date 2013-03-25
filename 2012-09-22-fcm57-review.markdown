@@ -6,18 +6,18 @@ comments: true
 categories: issue57 review
 ---
 
-`翻译：Xiaobb 校对:`
+`翻译：Xiaobb 校对:VinoCos`
 
 `Written by Art Schreckengost`
 `Art Schreckengost 著`
 
 In the past, I've reviewed some unknown Ubuntu derivatives, but recently I came across one so obscure I'm not quite sure how I found it.
 
-在以前，我已经对许多不太出名的ubuntu衍生系统进行过评测，但是最近我发生了一件事，让我很头疼，我甚至不清楚我是怎么发现它的。
+以前，我曾对许多不太出名的ubuntu衍生系统进行过评测，但是最近我碰到了一个让我摸不着头脑的东西，我甚至都不清楚我是怎么发现它的。
 
 I'm referring to openArtist 5th Incarnation (oA hereafter), an OS that has managed to stay hidden even though it's been out 3 years (DistroWatch and Wikipedia have zip). About the only information I could gather was limited to either the website (www.openartisthq.org) or 2009 developer posts on BlenderNation.com and BlenderArtists.org. 
 
-这件事就是openArtist第五版（或称为oA 后继），它是一个非常神秘的操作系统，尽管开发成功已经3年了，但至今仍然保持隐匿状态，很少有人知道和使用（Zip版本可以在Distroatch和Wiki百科中下载）。对于该系统的相关信息也仅限于一些网站（例如，www.openartisthq.org）或者在BlenderNation.com和BlenderArtists.org共同组织的2009年开发者大会。
+这个东西就是openArtist第五版（下文简称为oA ），它是一个非常神秘的操作系统，尽管开发成功已经3年了，但至今仍然保持隐匿状态，很少有人知道和使用（Zip版本可以在Distroatch和Wiki百科中下载）。对于该系统的相关信息也仅限于一些网站（例如，www.openartisthq.org）或者在BlenderNation.com和BlenderArtists.org共同组织的2009年开发者大会。
 
 But this transparency is largely on purpose as the developer (an Austrian student going by the name cellstorm) has opted to keep his OS underground until he's sure it's ready for wide release.
 
